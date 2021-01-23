@@ -1,0 +1,74 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand .navbar-item
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:3vw;
+    color:black;
+    padding: 20px 20px 20px 20px;
+}
+
+
+.outstanding_title
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:3vw;
+    color:black;
+}
+
+.side_title{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.navbar-menu
+{
+    padding: 20px 20px 20px 20px;
+}
+
+.banner-img{
+    width:60%;
+    height:40%;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand .navbar-item
+    {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size:7vw;
+        color:black;
+    }
+
+    
+    .outstanding_title
+    {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size:7vw;
+        color:black;
+    }
+
+    .banner-img{
+        width:auto;
+        height:auto;
+    }
+    
+  }
+
+
+  @media (min-width: 769px) and (max-width: 1100px) {
+
+    .outstanding_title
+    {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size:4vw;
+        color:black;
+    }
+
+    .banner-img{
+        width:auto;
+        height:auto;
+    }
+
+  }
